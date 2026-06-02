@@ -14,6 +14,9 @@ variables:
       icapi_ds_external_id: ds_icapi
       icapi_space_name: icapi_dm_space
 
+      scheduleDaily: 45 0 * * *
+      pause_transformations: false
+
       data_foundation:
         data_developer_source_id: ${DATA_DEVELOPER_SOURCE_ID}
 
